@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const request = axios.create({
-    baseURL : "http://localhost:8080"
+    baseURL : "https://blog-app-mern-stack.onrender.com"
 })
 
 export default request
